@@ -1,5 +1,5 @@
 {
-  "updatedate": "2021-12-03T00:00:00Z",
+  "updatedate": "2021-12-09T00:00:00Z",
   "packages": [
     {
       "name": "1password",
@@ -105,23 +105,12 @@
       "name": "audacity",
       "installer": {
         "kind": "innosetup",
-        "x86": "https://github.com/audacity/audacity/releases/download/Audacity-3.0.5/audacity-win-3.0.5-32bit.exe",
-        "x86_64": "https://github.com/audacity/audacity/releases/download/Audacity-3.0.5/audacity-win-3.0.5-64bit.exe"
-      },
-      "version": "3.0.5",
-      "displayname": "Audacity",
-      "role": "None"
-    },
-    {
-      "name": "audacity",
-      "installer": {
-        "kind": "innosetup",
         "x86": "https://github.com/audacity/audacity/releases/download/Audacity-3.1.2/audacity-win-3.1.2-32bit.exe",
         "x86_64": "https://github.com/audacity/audacity/releases/download/Audacity-3.1.2/audacity-win-3.1.2-64bit.exe"
       },
       "version": "3.1.2",
       "displayname": "Audacity",
-      "role": "Tech"
+      "role": "Graphic"
     },
     {
       "name": "aws-cli",
