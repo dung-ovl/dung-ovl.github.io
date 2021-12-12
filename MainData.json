@@ -1,5 +1,5 @@
 {
-  "updatedate": "2021-12-09T19:00:00Z",
+  "updatedate": "2021-12-12T15:30:00Z",
   "packages": [
     {
       "name": "1password",
@@ -86,20 +86,6 @@
       "version": "7.0.10",
       "displayname": "Artweaver Free",
       "role": "Graphic"
-    },
-    {
-      "name": "atom",
-      "installer": {
-        "kind": "squirrel",
-        "options": {
-          "extension": ".exe"
-        },
-        "x86": "https://atom.io/download/windows",
-        "x86_64": "https://atom.io/download/windows_x64"
-      },
-      "version": "latest",
-      "displayname": "Atom",
-      "role": "IT"
     },
     {
       "name": "audacity",
@@ -525,17 +511,6 @@
       "version": "1.4.1.1009",
       "displayname": "Everything",
       "role": "None"
-    },
-    {
-      "name": "firealpaca",
-      "installer": {
-        "kind": "innosetup",
-        "x86": "https://firealpaca.com/download/win",
-        "x86_64": "https://firealpaca.com/download/win64"
-      },
-      "version": "2.6.7",
-      "displayname": "FireAlpaca",
-      "role": "Graphic"
     },
     {
       "name": "firefox",
