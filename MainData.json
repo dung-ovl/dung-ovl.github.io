@@ -1,5 +1,5 @@
 {
-  "updatedate": "2021-12-12T15:30:00Z",
+  "updatedate": "2021-12-12T19:20:00Z",
   "packages": [
     {
       "name": "1password",
@@ -81,7 +81,7 @@
       "name": "artweaver",
       "installer": {
         "kind": "innosetup",
-        "x86_64": "https://www.artweaver.de/en/download/artweaverfree"
+        "x86_64": "https://www.artweaver.de/direct/Artweaver.exe"
       },
       "version": "7.0.10",
       "displayname": "Artweaver Free",
@@ -205,7 +205,7 @@
       "name": "brlcad",
       "installer": {
         "kind": "nsis",
-        "x86_64": "https://sourceforge.net/projects/brlcad/files/latest/download"
+        "x86_64": "https://sourceforge.net/projects/brlcad/files/BRL-CAD%20for%20Windows/7.32.2/BRL-CAD_7.32.2_win64.exe/download"
       },
       "version": "7.32.2",
       "displayname": "BRL-CAD",
@@ -839,8 +839,8 @@
       "name": "inkscape",
       "installer": {
         "kind": "msi",
-        "x86": "https://inkscape.org/release/inkscape-1.1.1/windows/32-bit/msi/dl/",
-        "x86_64": "https://inkscape.org/release/inkscape-1.1.1/windows/64-bit/msi/dl/"
+        "x86": "https://inkscape.org/gallery/item/29346/inkscape-1.1.1_2021-09-20_3bf5ae0d25-x86.msi",
+        "x86_64": "https://inkscape.org/gallery/item/29350/inkscape-1.1.1_2021-09-20_3bf5ae0d25-x64.msi"
       },
       "version": "1.1.1",
       "displayname": "Inkscape",
@@ -894,16 +894,6 @@
       "version": "latest",
       "displayname": "JetBrains Toolbox",
       "role": "IT"
-    },
-    {
-      "name": "kdenlive",
-      "installer": {
-        "kind": "innosetup",
-        "x86_64": "https://download.kde.org/stable/kdenlive/21.08/windows/kdenlive-21.08.3.exe"
-      },
-      "version": "21.08.3",
-      "displayname": "kdenlive",
-      "role": "Graphic"
     },
     {
       "name": "keepass",
@@ -1048,16 +1038,6 @@
       "role": "None"
     },
     {
-      "name": "madiacoder",
-      "installer": {
-        "kind": "nsis",
-        "x86_64": "https://www.fosshub.com/MediaCoder.html?dwl=MediaCoder-x64-0.8.63.exe"
-      },
-      "version": "0.8.63",
-      "displayname": "MediaCoder",
-      "role": "Graphic"
-    },
-    {
       "name": "mailspring",
       "installer": {
         "kind": "squirrel",
@@ -1152,17 +1132,6 @@
       "version": "latest",
       "displayname": "Microsoft Teams",
       "role": "None"
-    },
-    {
-      "name": "mkvtoolnix",
-      "installer": {
-        "kind": "nsis",
-        "x86": "https://www.fosshub.com/MKVToolNix.html?dwl=mkvtoolnix-32-bit-63.0.0-setup.exe",
-        "x86_64": "https://www.fosshub.com/MKVToolNix.html?dwl=mkvtoolnix-64-bit-63.0.0-setup.exe"
-      },
-      "version": "63.0.0",
-      "displayname": "MKVToolNix",
-      "role": "Graphic"
     },
     {
       "name": "mono",
@@ -1565,10 +1534,10 @@
       "name": "qcad",
       "installer": {
         "kind": "msi",
-        "x86": "https://www.qcad.org/archives/qcad/qcad-3.26.4-trial-win32-installer.msi",
-        "x86_64": "https://www.qcad.org/archives/qcad/qcad-3.26.4-trial-win64-installer.msi"
+        "x86": "https://qcad.org/archives/qcad/qcad-3.27.0-trial-win32-installer.msi",
+        "x86_64": "https://qcad.org/archives/qcad/qcad-3.27.0-trial-win64-installer.msi"
       },
-      "version": "3.26.4",
+      "version": "3.27.0",
       "displayname": "QCAD",
       "role": "Tech"
     },
@@ -2155,17 +2124,6 @@
       "version": "latest",
       "displayname": "Visual Studio Enterprise",
       "role": "IT"
-    },
-    {
-      "name": "vlc",
-      "installer": {
-        "kind": "msi",
-        "x86": "https://download.videolan.org/pub/videolan/vlc/last/win32/vlc-3.0.16-win32.msi",
-        "x86_64": "https://download.videolan.org/pub/videolan/vlc/last/win64/vlc-3.0.16-win64.msi"
-      },
-      "version": "3.0.16",
-      "displayname": "VLC media player",
-      "role": "None"
     },
     {
       "name": "whatsapp",
