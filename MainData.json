@@ -1,5 +1,5 @@
 {
-  "updatedate": "2021-12-16T20:40:00Z",
+  "updatedate": "2021-12-16T22:50:00Z",
   "packages": [
     {
       "name": "1password",
@@ -570,47 +570,6 @@
       "role": "Graphic"
     },
     {
-      "name": "git",
-      "installer": {
-        "kind": "innosetup",
-        "options": {
-          "shims": [
-            "{{.PROGRAMFILES}}\\Git\\bin\\git.exe"
-          ]
-        },
-        "x86": "https://github.com/git-for-windows/git/releases/download/v2.33.0.windows.2/Git-2.33.0.2-32-bit.exe",
-        "x86_64": "https://github.com/git-for-windows/git/releases/download/v2.33.0.windows.2/Git-2.33.0.2-64-bit.exe"
-      },
-      "version": "2.33.0",
-      "displayname": "Git",
-      "role": "IT"
-    },
-    {
-      "name": "git-lfs",
-      "installer": {
-        "kind": "innosetup",
-        "options": {
-          "shims": [
-            "{{.PROGRAMFILES}}\\Git LFS\\git-lfs.exe"
-          ]
-        },
-        "x86": "https://github.com/git-lfs/git-lfs/releases/download/v3.0.1/git-lfs-windows-v3.0.1.exe"
-      },
-      "version": "3.0.1",
-      "displayname": "Git LFS",
-      "role": "IT"
-    },
-    {
-      "name": "gitextensions",
-      "installer": {
-        "kind": "msi",
-        "x86": "https://github.com/gitextensions/gitextensions/releases/download/v3.5.4/GitExtensions-3.5.4.12724-65f01f399.msi"
-      },
-      "version": "3.5.4",
-      "displayname": "Git Extensions",
-      "role": "IT"
-    },
-    {
       "name": "github",
       "installer": {
         "kind": "squirrel",
@@ -621,17 +580,6 @@
       },
       "version": "latest",
       "displayname": "GitHub Desktop",
-      "role": "IT"
-    },
-    {
-      "name": "gitkraken",
-      "installer": {
-        "kind": "squirrel",
-        "x86": "https://release.gitkraken.com/win32/GitKrakenSetup.exe",
-        "x86_64": "https://release.gitkraken.com/win64/GitKrakenSetup.exe"
-      },
-      "version": "latest",
-      "displayname": "GitKraken",
       "role": "IT"
     },
     {
