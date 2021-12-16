@@ -1,5 +1,5 @@
 {
-  "updatedate": "2021-12-12T19:20:00Z",
+  "updatedate": "2021-12-16T20:40:00Z",
   "packages": [
     {
       "name": "1password",
@@ -521,48 +521,6 @@
         },
         "x86": "https://download.mozilla.org/?product=firefox-latest&os=win&lang=en-US",
         "x86_64": "https://download.mozilla.org/?product=firefox-latest&os=win64&lang=en-US"
-      },
-      "version": "latest",
-      "displayname": "Firefox",
-      "role": "None"
-    },
-    {
-      "name": "firefox-beta",
-      "installer": {
-        "kind": "nsis",
-        "options": {
-          "extension": ".exe"
-        },
-        "x86": "https://download.mozilla.org/?product=firefox-beta-latest&os=win&lang=en-US",
-        "x86_64": "https://download.mozilla.org/?product=firefox-beta-latest&os=win64&lang=en-US"
-      },
-      "version": "latest",
-      "displayname": "Firefox",
-      "role": "None"
-    },
-    {
-      "name": "firefox-developer-edition",
-      "installer": {
-        "kind": "nsis",
-        "options": {
-          "extension": ".exe"
-        },
-        "x86": "https://download.mozilla.org/?product=firefox-devedition-latest-ssl&os=win&lang=en-US",
-        "x86_64": "https://download.mozilla.org/?product=firefox-devedition-latest-ssl&os=win64&lang=en-US"
-      },
-      "version": "latest",
-      "displayname": "Firefox",
-      "role": "None"
-    },
-    {
-      "name": "firefox-esr",
-      "installer": {
-        "kind": "nsis",
-        "options": {
-          "extension": ".exe"
-        },
-        "x86": "https://download.mozilla.org/?product=firefox-esr-latest&os=win&lang=en-US",
-        "x86_64": "https://download.mozilla.org/?product=firefox-esr-latest&os=win64&lang=en-US"
       },
       "version": "latest",
       "displayname": "Firefox",
