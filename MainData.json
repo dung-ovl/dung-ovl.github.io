@@ -1,5 +1,5 @@
 {
-  "updatedate": "2021-12-17T16:40:00Z",
+  "updatedate": "2021-12-19T21:30:00Z",
   "packages": [
     {
       "name": "1password",
@@ -874,9 +874,10 @@
       "name": "kodi",
       "installer": {
         "kind": "nsis",
-        "x86": "https://mirrors.kodi.tv/releases/windows/win32/kodi-19.1-Matrix-x86.exe"
+        "x86": "https://mirrors.kodi.tv/releases/windows/win32/kodi-19.3-Matrix-x86.exe",
+        "x86_64": "https://mirrors.kodi.tv/releases/windows/win64/kodi-19.3-Matrix-x64.exe"
       },
-      "version": "19.1",
+      "version": "19.3",
       "displayname": "Kodi",
       "role": "None"
     },
@@ -1122,7 +1123,7 @@
     {
       "name": "nextcloud",
       "installer": {
-        "kind": "nsis",
+        "kind": "msi",
         "x86": "https://github.com/nextcloud/desktop/releases/download/v3.3.5/Nextcloud-3.3.5-x86.msi",
         "x86_64": "https://github.com/nextcloud/desktop/releases/download/v3.3.5/Nextcloud-3.3.5-x64.msi"
       },
